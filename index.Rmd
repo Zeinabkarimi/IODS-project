@@ -1,5 +1,6 @@
 ---
 title: "IODS course project"
+Author: Zeinab Karimi
 output:
   html_document:
     theme: cosmo

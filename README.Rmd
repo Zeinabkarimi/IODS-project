@@ -1,0 +1,10 @@
+---
+title: "Week 1"
+author: "Zeinab Karimi"
+date: "30 October 2018"
+
+---
+
+https://Zeinabkarimi.github.io/IODS-project/
+
+Today, I did a very simple task in RStudio. I learnt how to connect my RStudio files to the GitHub and share it with others. I also learnt more about the course and its practical matters. For example if I have a question, I can easily use the online platform and ask for help.
