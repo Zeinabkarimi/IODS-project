@@ -8,3 +8,7 @@ date: "30 October 2018"
 https://Zeinabkarimi.github.io/IODS-project/
 
 Today, I did a very simple task in RStudio. I learnt how to connect my RStudio files to the GitHub and share it with others. I also learnt more about the course and its practical matters. For example if I have a question, I can easily use the online platform and ask for help.
+
+Week 2:
+I coundn't attend the last class on Tuesday and faced with lots of difficulties to understand R language. This migh sound crazy but I spent three full days to understand what I need to do. I tried to get help form discussion platform in the blog but no sucess. I cannot aford more than this. I am considering to drop the course if the next week feel helpless...
+
