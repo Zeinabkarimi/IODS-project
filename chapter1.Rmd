@@ -1,4 +1,7 @@
-
 # About the project
 
 *Write a short description about the course and add a link to your github repository here. This is an R markdown (.Rmd) file so you can use R markdown syntax. See the 'Useful links' page in the mooc area (chapter 1) for instructions.*
+
+I used to take this course two years ago, but I was too busy to do the assignments and focus on learning how open data since functions. Now that I have more time, I became excited to learn more. I wish the lecturer was showing some of the main and practical steps (e.g. connecting git to RStudio) in the class. Maybe we could easily comprehend the the relations a bit better if we could see how it can be done. Overall, I took baby steps in learning R in DataCamp and look forward to learn more in this amazing course.
+
+my github repository is: https://github.com/Zeinabkarimi/IODS-project
