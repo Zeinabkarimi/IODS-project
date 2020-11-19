@@ -1,0 +1,32 @@
+# Load the Boston data from the MASS package and explore the data
+library(MASS)
+data(Boston)
+head(Boston)
+dim(Boston)
+str(Boston)
+
+#graphical overview of the data
+summary(Boston)
+library(graphics)
+plot(Boston$crim)
+
+#Standardize the dataset
+Boston.tream <- scale(Boston)
+summary(Boston.tream)
+
+#Create a categorical variable of the crime
+Boston.tream <- quantile(crim)
+Boston.tream
+crime <- cut(Boston.tream$crim, breaks = Boston.tream, include.lowest = TRUE, labels = c("low", "med_low", "med_high", "high"))
+
+#Drop the old crime rate variable in a new data set
+Boston.tream <- Boston [, -1]
+summary(Boston.tream)
+
+#Divide the dataset to train and test sets
+split <- round(nrow(Boston.tream) * 0.80)
+
+#Fit the linear discriminant analysis
+linear.discriminant <- lda(crime ~ ., data = Boston.tream)
+str(crime)
+

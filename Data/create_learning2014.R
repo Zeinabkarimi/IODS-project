@@ -27,3 +27,24 @@ learning2014$surfce <- rowMeans(surface_columns)
 strategic_columns <- select(learning2014, one_of(strategic_questions))
 learning2014$strategic <- rowMeans(strategic_columns)
 
+
+dim(learning2014)
+
+# analysis,  discovering the data: 183 observation with 63 variables
+str(learning2014)
+dim(learning2014)
+
+#graphical overview:the distribution of each variable seem to be more or less similar
+plot(learning2014$deep)
+plot(learning2014$surfce)
+plot(learning2014$strategic)
+
+plot(learning2014$deep, learning2014$surfce)
+plot( points, attitude, main= "points and attitude")
+
+# Regression: exam points is the target (dependent) variable
+regmodel <- lm(points, deep)
+
+# print out a summary of the model
+summary(regmodel)
+
